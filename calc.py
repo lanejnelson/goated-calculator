@@ -3,7 +3,8 @@ import math
 first_num = int(input("Enter the first number:\n"))
 operation = input("Enter the operation:\n")
 second_num = int(input("Enter the second number:\n"))
-def calculation():
+def calculation(first_num,operation,second_num):
+
     if operation == '*':
         result = first_num * second_num
         return result
@@ -20,8 +21,6 @@ def calculation():
         result = first_num ** second_num
         return result
     else:
-        result = 'Failed to calculate'
-        return result
+        return "It's broken"
 
-print(calculation())
-    
+print(calculation(first_num,operation,second_num))

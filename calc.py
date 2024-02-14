@@ -1,4 +1,3 @@
-import math
 
 first_num = int(input("Enter the first number:\n"))
 operation = input("Enter the operation:\n")

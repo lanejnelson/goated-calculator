@@ -21,6 +21,6 @@ def calculation(first_num,operation,second_num):
         result = first_num ** second_num
         return result
     else:
-        return "It's broken"
+        return "Please enter a correct operation"
 
 print(calculation(first_num,operation,second_num))

@@ -1,3 +1,3 @@
 # goated-calculator
 ----
-literally the best calculator known to me 
+literally the best calculator known to man 
